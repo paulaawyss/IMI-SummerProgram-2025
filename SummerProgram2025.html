@@ -16,7 +16,92 @@
   <title></title>
   
     <style type="text/css">
-      
+      <style type="text/css">
+  .u-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .u-col {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media only screen and (min-width: 620px) {
+    .u-row {
+      max-width: 90% !important;
+      margin: auto;
+    }
+
+    .u-row .u-col-33p33 {
+      width: 33.33% !important;
+    }
+
+    .u-row .u-col-36p67 {
+      width: 36.67% !important;
+    }
+
+    .u-row .u-col-38p67 {
+      width: 38.67% !important;
+    }
+
+    .u-row .u-col-61p33 {
+      width: 61.33% !important;
+    }
+
+    .u-row .u-col-63p33 {
+      width: 63.33% !important;
+    }
+
+    .u-row .u-col-100 {
+      width: 100% !important;
+    }
+  }
+
+  @media only screen and (max-width: 620px) {
+    .u-row-container {
+      max-width: 100% !important;
+      padding: 0 !important;
+    }
+
+    .u-row {
+      flex-direction: column;
+      width: 100% !important;
+    }
+
+    .u-row .u-col {
+      display: block !important;
+      width: 100% !important;
+      margin: auto !important;
+    }
+
+    .u-row .u-col img {
+      max-width: 100% !important;
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  table, td, tr {
+    border-collapse: collapse;
+    vertical-align: top;
+  }
+
+  * {
+    line-height: inherit;
+  }
+
+  a[x-apple-data-detectors=true] {
+    color: inherit;
+    text-decoration: none;
+  }
+</style>
       @media only screen and (min-width: 620px) {
         .u-row {
           width: 600px !important;
